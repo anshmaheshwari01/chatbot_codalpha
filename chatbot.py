@@ -11,8 +11,10 @@ from nltk.stem import WordNetLemmatizer
 
 # Download NLTK resources
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)  # NEW FIX
 nltk.download('stopwords', quiet=True)
 nltk.download('wordnet', quiet=True)
+
 
 class FAQChatbot:
     def __init__(self):
